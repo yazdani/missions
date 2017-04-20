@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.77.0 commit date:2016-04-05, commit time:18:12, hash:abf6f08</authoring_tool>
+    </contributor>
+    <created>2016-08-08T11:15:37</created>
+    <modified>2016-08-08T11:15:37</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_effects>
+    <effect id="KitchenWhite_007-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.7176727 0.7176727 0.7176727 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.375 0.375 0.375 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="KitchenDarkGray_010-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.1100667 0.1100667 0.1100667 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">6.12108e-4 6.12108e-4 6.12108e-4 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="OvenBlack_012-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.02485063 0.02485063 0.02485063 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.4537959 0.4537959 0.4537959 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">137</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="OvenGlass_007-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.07267009 0.07267009 0.07267009 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.6300448 0.6300448 0.6300448 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="KitchenLightGray_007-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.4 0.4 0.4 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.035 0.035 0.035 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="KitchenWhite_007-material" name="KitchenWhite_007">
+      <instance_effect url="#KitchenWhite_007-effect"/>
+    </material>
+    <material id="KitchenDarkGray_010-material" name="KitchenDarkGray_010">
+      <instance_effect url="#KitchenDarkGray_010-effect"/>
+    </material>
+    <material id="OvenBlack_012-material" name="OvenBlack_012">
+      <instance_effect url="#OvenBlack_012-effect"/>
+    </material>
+    <material id="OvenGlass_007-material" name="OvenGlass_007">
+      <instance_effect url="#OvenGlass_007-effect"/>
+    </material>
+    <material id="KitchenLightGray_007-material" name="KitchenLightGray_007">
+      <instance_effect url="#KitchenLightGray_007-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Cube_003-mesh" name="Cube.003">
+      <mesh>
+        <source id="Cube_003-mesh-positions">
+          <float_array id="Cube_003-mesh-positions-array" count="120">-0.9739134 -1.694915 -0.05735856 -0.9739132 1.694915 -0.05735856 -0.9043479 1.694915 -0.05735856 -0.9043481 -1.694915 -0.05735856 -0.9739134 -1.694915 0.07849043 -0.9739132 1.694915 0.07849043 -0.9043479 1.694915 0.07849043 -0.9043481 -1.694915 0.07849043 -0.9391303 1.559322 -0.05735856 -0.9391303 1.694915 -0.05735856 0.9391306 1.694915 -0.05735838 0.9391306 1.559322 -0.05735838 -0.9391303 1.559322 0.07849043 -0.9391303 1.694915 0.07849043 0.9391306 1.694915 0.07849061 0.9391306 1.559322 0.07849061 -0.9391306 -1.694915 -0.05735856 -0.9391306 -1.559322 -0.05735856 0.9391304 -1.559322 -0.05735838 0.9391304 -1.694915 -0.05735838 -0.9391306 -1.694915 0.07849043 -0.9391306 -1.559322 0.07849043 0.9391304 -1.559322 0.07849061 0.9391304 -1.694915 0.07849061 0.9043478 -2.01695 -0.09132063 0.9043481 2.01695 -0.09132063 0.9739133 2.01695 -0.09132063 0.9739131 -2.01695 -0.09132063 0.9043478 -2.01695 0.1124529 0.9043481 2.01695 0.1124529 0.9739133 2.01695 0.1124529 0.9739131 -2.01695 0.1124529 -0.9391306 -1.694915 -0.05735856 -0.9391303 1.694915 -0.05735856 0.9391306 1.694915 -0.05735838 0.9391304 -1.694915 -0.05735838 -0.9391306 -1.694915 -0.02716988 -0.9391303 1.694915 -0.02716988 0.9391306 1.694915 -0.0271697 0.9391304 -1.694915 -0.0271697</float_array>
+          <technique_common>
+            <accessor source="#Cube_003-mesh-positions-array" count="40" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_003-mesh-normals">
+          <float_array id="Cube_003-mesh-normals-array" count="111">-1 0 0 -1 0 0 0 1 0 1 0 0 1 0 0 0 -1 0 0 0 -1 0 0 1 -1 0 0 1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 1 0 0 1 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 -1 0 0 1 1 0 0 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#Cube_003-mesh-normals-array" count="37" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_003-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_003-mesh-positions"/>
+        </vertices>
+        <polylist material="KitchenWhite_007-material" count="60">
+          <input semantic="VERTEX" source="#Cube_003-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_003-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>5 0 0 0 4 1 6 2 1 2 5 2 7 3 2 3 6 4 4 5 3 5 7 5 1 6 3 6 0 6 6 7 4 7 7 7 13 8 8 8 12 8 14 2 9 2 13 2 15 9 10 9 14 9 12 5 11 5 15 5 9 10 11 11 8 12 14 13 12 14 15 15 21 8 16 8 20 8 22 2 17 2 21 2 23 9 18 9 22 9 20 5 19 5 23 5 17 16 19 16 16 17 22 18 20 18 23 19 29 20 24 21 28 21 30 2 25 2 29 2 31 22 26 23 30 24 28 5 27 5 31 5 25 6 27 6 24 6 30 7 28 7 31 7 37 25 32 26 36 26 37 2 34 2 33 2 39 27 34 28 38 28 36 5 35 5 39 5 33 29 35 30 32 30 39 31 37 32 36 31 5 0 1 0 0 0 6 2 2 2 1 2 7 3 3 3 2 3 4 5 0 5 3 5 1 6 2 6 3 6 6 7 5 7 4 7 13 8 9 8 8 8 14 2 10 2 9 2 15 9 11 9 10 9 12 5 8 5 11 5 9 10 10 33 11 11 14 13 13 34 12 14 21 8 17 8 16 8 22 2 18 2 17 2 23 9 19 9 18 9 20 5 16 5 19 5 17 16 18 17 19 16 22 18 21 19 20 18 29 20 25 20 24 21 30 2 26 2 25 2 31 22 27 35 26 23 28 5 24 5 27 5 25 6 26 6 27 6 30 7 29 7 28 7 37 25 33 25 32 26 37 2 38 2 34 2 39 27 35 27 34 28 36 5 32 5 35 5 33 29 34 36 35 30 39 31 38 32 37 32</p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers/>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="OvenDrawerMiddleTop" name="OvenDrawerMiddleTop" type="NODE">
+        <matrix sid="transform">0.2875 0 0 0 0 0.1475 1.07935e-7 0 0 -2.40308e-8 0.6625 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_003-mesh" name="OvenDrawerMiddleTop">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="KitchenWhite_007-material" target="#KitchenWhite_007-material"/>
+              <instance_material symbol="KitchenDarkGray_010-material" target="#KitchenDarkGray_010-material"/>
+              <instance_material symbol="OvenBlack_012-material" target="#OvenBlack_012-material"/>
+              <instance_material symbol="OvenGlass_007-material" target="#OvenGlass_007-material"/>
+              <instance_material symbol="KitchenLightGray_007-material" target="#KitchenLightGray_007-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
