@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.78.0 commit date:2017-02-24, commit time:14:33, hash:e92f2352830</authoring_tool>
     </contributor>
-    <created>2017-06-01T13:34:28</created>
-    <modified>2017-06-01T13:34:28</modified>
+    <created>2017-06-02T10:50:37</created>
+    <modified>2017-06-02T10:50:37</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -23,10 +23,10 @@
               <color sid="ambient">0 0 0 1</color>
             </ambient>
             <diffuse>
-              <color sid="diffuse">0.64 0.612628 0 1</color>
+              <color sid="diffuse">0 0.007641502 0.64 1</color>
             </diffuse>
             <specular>
-              <color sid="specular">0.25 0.25 0.25 1</color>
+              <color sid="specular">0.5 0.5 0.5 1</color>
             </specular>
             <shininess>
               <float sid="shininess">50</float>
@@ -45,10 +45,1231 @@
     </material>
   </library_materials>
   <library_geometries>
+    <geometry id="Cube_046-mesh" name="Cube.046">
+      <mesh>
+        <source id="Cube_046-mesh-positions">
+          <float_array id="Cube_046-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_046-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_046-mesh-normals">
+          <float_array id="Cube_046-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_046-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_046-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_046-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_001-material" count="12">
+          <input semantic="VERTEX" source="#Cube_046-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_046-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 2 0 0 0 3 1 6 1 2 1 7 2 4 2 6 2 5 3 0 3 4 3 6 4 0 4 2 4 3 5 5 5 7 5 1 0 3 0 2 0 3 1 7 1 6 1 7 2 5 2 4 2 5 3 1 3 0 3 6 4 4 4 0 4 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_045-mesh" name="Cube.045">
+      <mesh>
+        <source id="Cube_045-mesh-positions">
+          <float_array id="Cube_045-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_045-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_045-mesh-normals">
+          <float_array id="Cube_045-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_045-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_045-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_045-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_001-material" count="12">
+          <input semantic="VERTEX" source="#Cube_045-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_045-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 2 0 0 0 3 1 6 1 2 1 7 2 4 2 6 2 5 3 0 3 4 3 6 4 0 4 2 4 3 5 5 5 7 5 1 0 3 0 2 0 3 1 7 1 6 1 7 2 5 2 4 2 5 3 1 3 0 3 6 4 4 4 0 4 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_044-mesh" name="Cube.044">
+      <mesh>
+        <source id="Cube_044-mesh-positions">
+          <float_array id="Cube_044-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_044-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_044-mesh-normals">
+          <float_array id="Cube_044-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_044-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_044-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_044-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_001-material" count="12">
+          <input semantic="VERTEX" source="#Cube_044-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_044-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 2 0 0 0 3 1 6 1 2 1 7 2 4 2 6 2 5 3 0 3 4 3 6 4 0 4 2 4 3 5 5 5 7 5 1 0 3 0 2 0 3 1 7 1 6 1 7 2 5 2 4 2 5 3 1 3 0 3 6 4 4 4 0 4 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_043-mesh" name="Cube.043">
+      <mesh>
+        <source id="Cube_043-mesh-positions">
+          <float_array id="Cube_043-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_043-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_043-mesh-normals">
+          <float_array id="Cube_043-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_043-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_043-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_043-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_001-material" count="12">
+          <input semantic="VERTEX" source="#Cube_043-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_043-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 2 0 0 0 3 1 6 1 2 1 7 2 4 2 6 2 5 3 0 3 4 3 6 4 0 4 2 4 3 5 5 5 7 5 1 0 3 0 2 0 3 1 7 1 6 1 7 2 5 2 4 2 5 3 1 3 0 3 6 4 4 4 0 4 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_042-mesh" name="Cube.042">
+      <mesh>
+        <source id="Cube_042-mesh-positions">
+          <float_array id="Cube_042-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_042-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_042-mesh-normals">
+          <float_array id="Cube_042-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_042-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_042-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_042-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_001-material" count="12">
+          <input semantic="VERTEX" source="#Cube_042-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_042-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 2 0 0 0 3 1 6 1 2 1 7 2 4 2 6 2 5 3 0 3 4 3 6 4 0 4 2 4 3 5 5 5 7 5 1 0 3 0 2 0 3 1 7 1 6 1 7 2 5 2 4 2 5 3 1 3 0 3 6 4 4 4 0 4 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_041-mesh" name="Cube.041">
+      <mesh>
+        <source id="Cube_041-mesh-positions">
+          <float_array id="Cube_041-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_041-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_041-mesh-normals">
+          <float_array id="Cube_041-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_041-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_041-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_041-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_001-material" count="12">
+          <input semantic="VERTEX" source="#Cube_041-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_041-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 2 0 0 0 3 1 6 1 2 1 7 2 4 2 6 2 5 3 0 3 4 3 6 4 0 4 2 4 3 5 5 5 7 5 1 0 3 0 2 0 3 1 7 1 6 1 7 2 5 2 4 2 5 3 1 3 0 3 6 4 4 4 0 4 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_040-mesh" name="Cube.040">
+      <mesh>
+        <source id="Cube_040-mesh-positions">
+          <float_array id="Cube_040-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_040-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_040-mesh-normals">
+          <float_array id="Cube_040-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_040-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_040-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_040-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_001-material" count="12">
+          <input semantic="VERTEX" source="#Cube_040-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_040-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 2 0 0 0 3 1 6 1 2 1 7 2 4 2 6 2 5 3 0 3 4 3 6 4 0 4 2 4 3 5 5 5 7 5 1 0 3 0 2 0 3 1 7 1 6 1 7 2 5 2 4 2 5 3 1 3 0 3 6 4 4 4 0 4 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_039-mesh" name="Cube.039">
+      <mesh>
+        <source id="Cube_039-mesh-positions">
+          <float_array id="Cube_039-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_039-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_039-mesh-normals">
+          <float_array id="Cube_039-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_039-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_039-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_039-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_001-material" count="12">
+          <input semantic="VERTEX" source="#Cube_039-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_039-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 2 0 0 0 3 1 6 1 2 1 7 2 4 2 6 2 5 3 0 3 4 3 6 4 0 4 2 4 3 5 5 5 7 5 1 0 3 0 2 0 3 1 7 1 6 1 7 2 5 2 4 2 5 3 1 3 0 3 6 4 4 4 0 4 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_038-mesh" name="Cube.038">
+      <mesh>
+        <source id="Cube_038-mesh-positions">
+          <float_array id="Cube_038-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_038-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_038-mesh-normals">
+          <float_array id="Cube_038-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_038-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_038-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_038-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_001-material" count="12">
+          <input semantic="VERTEX" source="#Cube_038-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_038-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 2 0 0 0 3 1 6 1 2 1 7 2 4 2 6 2 5 3 0 3 4 3 6 4 0 4 2 4 3 5 5 5 7 5 1 0 3 0 2 0 3 1 7 1 6 1 7 2 5 2 4 2 5 3 1 3 0 3 6 4 4 4 0 4 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_037-mesh" name="Cube.037">
+      <mesh>
+        <source id="Cube_037-mesh-positions">
+          <float_array id="Cube_037-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_037-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_037-mesh-normals">
+          <float_array id="Cube_037-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_037-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_037-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_037-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_001-material" count="12">
+          <input semantic="VERTEX" source="#Cube_037-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_037-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 2 0 0 0 3 1 6 1 2 1 7 2 4 2 6 2 5 3 0 3 4 3 6 4 0 4 2 4 3 5 5 5 7 5 1 0 3 0 2 0 3 1 7 1 6 1 7 2 5 2 4 2 5 3 1 3 0 3 6 4 4 4 0 4 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_036-mesh" name="Cube.036">
+      <mesh>
+        <source id="Cube_036-mesh-positions">
+          <float_array id="Cube_036-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_036-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_036-mesh-normals">
+          <float_array id="Cube_036-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_036-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_036-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_036-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_001-material" count="12">
+          <input semantic="VERTEX" source="#Cube_036-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_036-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 2 0 0 0 3 1 6 1 2 1 7 2 4 2 6 2 5 3 0 3 4 3 6 4 0 4 2 4 3 5 5 5 7 5 1 0 3 0 2 0 3 1 7 1 6 1 7 2 5 2 4 2 5 3 1 3 0 3 6 4 4 4 0 4 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_035-mesh" name="Cube.035">
+      <mesh>
+        <source id="Cube_035-mesh-positions">
+          <float_array id="Cube_035-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_035-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_035-mesh-normals">
+          <float_array id="Cube_035-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_035-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_035-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_035-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_001-material" count="12">
+          <input semantic="VERTEX" source="#Cube_035-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_035-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 2 0 0 0 3 1 6 1 2 1 7 2 4 2 6 2 5 3 0 3 4 3 6 4 0 4 2 4 3 5 5 5 7 5 1 0 3 0 2 0 3 1 7 1 6 1 7 2 5 2 4 2 5 3 1 3 0 3 6 4 4 4 0 4 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_034-mesh" name="Cube.034">
+      <mesh>
+        <source id="Cube_034-mesh-positions">
+          <float_array id="Cube_034-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_034-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_034-mesh-normals">
+          <float_array id="Cube_034-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_034-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_034-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_034-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_001-material" count="12">
+          <input semantic="VERTEX" source="#Cube_034-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_034-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 2 0 0 0 3 1 6 1 2 1 7 2 4 2 6 2 5 3 0 3 4 3 6 4 0 4 2 4 3 5 5 5 7 5 1 0 3 0 2 0 3 1 7 1 6 1 7 2 5 2 4 2 5 3 1 3 0 3 6 4 4 4 0 4 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_033-mesh" name="Cube.033">
+      <mesh>
+        <source id="Cube_033-mesh-positions">
+          <float_array id="Cube_033-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_033-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_033-mesh-normals">
+          <float_array id="Cube_033-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_033-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_033-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_033-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_001-material" count="12">
+          <input semantic="VERTEX" source="#Cube_033-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_033-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 2 0 0 0 3 1 6 1 2 1 7 2 4 2 6 2 5 3 0 3 4 3 6 4 0 4 2 4 3 5 5 5 7 5 1 0 3 0 2 0 3 1 7 1 6 1 7 2 5 2 4 2 5 3 1 3 0 3 6 4 4 4 0 4 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_032-mesh" name="Cube.032">
+      <mesh>
+        <source id="Cube_032-mesh-positions">
+          <float_array id="Cube_032-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_032-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_032-mesh-normals">
+          <float_array id="Cube_032-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_032-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_032-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_032-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_001-material" count="12">
+          <input semantic="VERTEX" source="#Cube_032-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_032-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 2 0 0 0 3 1 6 1 2 1 7 2 4 2 6 2 5 3 0 3 4 3 6 4 0 4 2 4 3 5 5 5 7 5 1 0 3 0 2 0 3 1 7 1 6 1 7 2 5 2 4 2 5 3 1 3 0 3 6 4 4 4 0 4 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_031-mesh" name="Cube.031">
+      <mesh>
+        <source id="Cube_031-mesh-positions">
+          <float_array id="Cube_031-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_031-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_031-mesh-normals">
+          <float_array id="Cube_031-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_031-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_031-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_031-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_001-material" count="12">
+          <input semantic="VERTEX" source="#Cube_031-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_031-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 2 0 0 0 3 1 6 1 2 1 7 2 4 2 6 2 5 3 0 3 4 3 6 4 0 4 2 4 3 5 5 5 7 5 1 0 3 0 2 0 3 1 7 1 6 1 7 2 5 2 4 2 5 3 1 3 0 3 6 4 4 4 0 4 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_030-mesh" name="Cube.030">
+      <mesh>
+        <source id="Cube_030-mesh-positions">
+          <float_array id="Cube_030-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_030-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_030-mesh-normals">
+          <float_array id="Cube_030-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_030-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_030-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_030-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_001-material" count="12">
+          <input semantic="VERTEX" source="#Cube_030-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_030-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 2 0 0 0 3 1 6 1 2 1 7 2 4 2 6 2 5 3 0 3 4 3 6 4 0 4 2 4 3 5 5 5 7 5 1 0 3 0 2 0 3 1 7 1 6 1 7 2 5 2 4 2 5 3 1 3 0 3 6 4 4 4 0 4 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_029-mesh" name="Cube.029">
+      <mesh>
+        <source id="Cube_029-mesh-positions">
+          <float_array id="Cube_029-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_029-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_029-mesh-normals">
+          <float_array id="Cube_029-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_029-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_029-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_029-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_001-material" count="12">
+          <input semantic="VERTEX" source="#Cube_029-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_029-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 2 0 0 0 3 1 6 1 2 1 7 2 4 2 6 2 5 3 0 3 4 3 6 4 0 4 2 4 3 5 5 5 7 5 1 0 3 0 2 0 3 1 7 1 6 1 7 2 5 2 4 2 5 3 1 3 0 3 6 4 4 4 0 4 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_028-mesh" name="Cube.028">
+      <mesh>
+        <source id="Cube_028-mesh-positions">
+          <float_array id="Cube_028-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_028-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_028-mesh-normals">
+          <float_array id="Cube_028-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_028-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_028-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_028-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_001-material" count="12">
+          <input semantic="VERTEX" source="#Cube_028-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_028-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 2 0 0 0 3 1 6 1 2 1 7 2 4 2 6 2 5 3 0 3 4 3 6 4 0 4 2 4 3 5 5 5 7 5 1 0 3 0 2 0 3 1 7 1 6 1 7 2 5 2 4 2 5 3 1 3 0 3 6 4 4 4 0 4 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_027-mesh" name="Cube.027">
+      <mesh>
+        <source id="Cube_027-mesh-positions">
+          <float_array id="Cube_027-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_027-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_027-mesh-normals">
+          <float_array id="Cube_027-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_027-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_027-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_027-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_001-material" count="12">
+          <input semantic="VERTEX" source="#Cube_027-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_027-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 2 0 0 0 3 1 6 1 2 1 7 2 4 2 6 2 5 3 0 3 4 3 6 4 0 4 2 4 3 5 5 5 7 5 1 0 3 0 2 0 3 1 7 1 6 1 7 2 5 2 4 2 5 3 1 3 0 3 6 4 4 4 0 4 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_026-mesh" name="Cube.026">
+      <mesh>
+        <source id="Cube_026-mesh-positions">
+          <float_array id="Cube_026-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_026-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_026-mesh-normals">
+          <float_array id="Cube_026-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_026-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_026-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_026-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_001-material" count="12">
+          <input semantic="VERTEX" source="#Cube_026-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_026-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 2 0 0 0 3 1 6 1 2 1 7 2 4 2 6 2 5 3 0 3 4 3 6 4 0 4 2 4 3 5 5 5 7 5 1 0 3 0 2 0 3 1 7 1 6 1 7 2 5 2 4 2 5 3 1 3 0 3 6 4 4 4 0 4 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_025-mesh" name="Cube.025">
+      <mesh>
+        <source id="Cube_025-mesh-positions">
+          <float_array id="Cube_025-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_025-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_025-mesh-normals">
+          <float_array id="Cube_025-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_025-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_025-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_025-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_001-material" count="12">
+          <input semantic="VERTEX" source="#Cube_025-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_025-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 2 0 0 0 3 1 6 1 2 1 7 2 4 2 6 2 5 3 0 3 4 3 6 4 0 4 2 4 3 5 5 5 7 5 1 0 3 0 2 0 3 1 7 1 6 1 7 2 5 2 4 2 5 3 1 3 0 3 6 4 4 4 0 4 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_024-mesh" name="Cube.024">
+      <mesh>
+        <source id="Cube_024-mesh-positions">
+          <float_array id="Cube_024-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_024-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_024-mesh-normals">
+          <float_array id="Cube_024-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_024-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_024-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_024-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_001-material" count="12">
+          <input semantic="VERTEX" source="#Cube_024-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_024-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 2 0 0 0 3 1 6 1 2 1 7 2 4 2 6 2 5 3 0 3 4 3 6 4 0 4 2 4 3 5 5 5 7 5 1 0 3 0 2 0 3 1 7 1 6 1 7 2 5 2 4 2 5 3 1 3 0 3 6 4 4 4 0 4 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_023-mesh" name="Cube.023">
+      <mesh>
+        <source id="Cube_023-mesh-positions">
+          <float_array id="Cube_023-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_023-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_023-mesh-normals">
+          <float_array id="Cube_023-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_023-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_023-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_023-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_001-material" count="12">
+          <input semantic="VERTEX" source="#Cube_023-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_023-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 2 0 0 0 3 1 6 1 2 1 7 2 4 2 6 2 5 3 0 3 4 3 6 4 0 4 2 4 3 5 5 5 7 5 1 0 3 0 2 0 3 1 7 1 6 1 7 2 5 2 4 2 5 3 1 3 0 3 6 4 4 4 0 4 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_022-mesh" name="Cube.022">
+      <mesh>
+        <source id="Cube_022-mesh-positions">
+          <float_array id="Cube_022-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_022-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_022-mesh-normals">
+          <float_array id="Cube_022-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_022-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_022-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_022-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_001-material" count="12">
+          <input semantic="VERTEX" source="#Cube_022-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_022-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 2 0 0 0 3 1 6 1 2 1 7 2 4 2 6 2 5 3 0 3 4 3 6 4 0 4 2 4 3 5 5 5 7 5 1 0 3 0 2 0 3 1 7 1 6 1 7 2 5 2 4 2 5 3 1 3 0 3 6 4 4 4 0 4 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_021-mesh" name="Cube.021">
+      <mesh>
+        <source id="Cube_021-mesh-positions">
+          <float_array id="Cube_021-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_021-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_021-mesh-normals">
+          <float_array id="Cube_021-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_021-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_021-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_021-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_001-material" count="12">
+          <input semantic="VERTEX" source="#Cube_021-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_021-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 2 0 0 0 3 1 6 1 2 1 7 2 4 2 6 2 5 3 0 3 4 3 6 4 0 4 2 4 3 5 5 5 7 5 1 0 3 0 2 0 3 1 7 1 6 1 7 2 5 2 4 2 5 3 1 3 0 3 6 4 4 4 0 4 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_020-mesh" name="Cube.020">
+      <mesh>
+        <source id="Cube_020-mesh-positions">
+          <float_array id="Cube_020-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_020-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_020-mesh-normals">
+          <float_array id="Cube_020-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_020-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_020-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_020-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_001-material" count="12">
+          <input semantic="VERTEX" source="#Cube_020-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_020-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 2 0 0 0 3 1 6 1 2 1 7 2 4 2 6 2 5 3 0 3 4 3 6 4 0 4 2 4 3 5 5 5 7 5 1 0 3 0 2 0 3 1 7 1 6 1 7 2 5 2 4 2 5 3 1 3 0 3 6 4 4 4 0 4 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_019-mesh" name="Cube.019">
+      <mesh>
+        <source id="Cube_019-mesh-positions">
+          <float_array id="Cube_019-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_019-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_019-mesh-normals">
+          <float_array id="Cube_019-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_019-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_019-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_019-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_001-material" count="12">
+          <input semantic="VERTEX" source="#Cube_019-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_019-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 2 0 0 0 3 1 6 1 2 1 7 2 4 2 6 2 5 3 0 3 4 3 6 4 0 4 2 4 3 5 5 5 7 5 1 0 3 0 2 0 3 1 7 1 6 1 7 2 5 2 4 2 5 3 1 3 0 3 6 4 4 4 0 4 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_018-mesh" name="Cube.018">
+      <mesh>
+        <source id="Cube_018-mesh-positions">
+          <float_array id="Cube_018-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_018-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_018-mesh-normals">
+          <float_array id="Cube_018-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_018-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_018-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_018-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_001-material" count="12">
+          <input semantic="VERTEX" source="#Cube_018-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_018-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 2 0 0 0 3 1 6 1 2 1 7 2 4 2 6 2 5 3 0 3 4 3 6 4 0 4 2 4 3 5 5 5 7 5 1 0 3 0 2 0 3 1 7 1 6 1 7 2 5 2 4 2 5 3 1 3 0 3 6 4 4 4 0 4 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_017-mesh" name="Cube.017">
+      <mesh>
+        <source id="Cube_017-mesh-positions">
+          <float_array id="Cube_017-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_017-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_017-mesh-normals">
+          <float_array id="Cube_017-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_017-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_017-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_017-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_001-material" count="12">
+          <input semantic="VERTEX" source="#Cube_017-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_017-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 2 0 0 0 3 1 6 1 2 1 7 2 4 2 6 2 5 3 0 3 4 3 6 4 0 4 2 4 3 5 5 5 7 5 1 0 3 0 2 0 3 1 7 1 6 1 7 2 5 2 4 2 5 3 1 3 0 3 6 4 4 4 0 4 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_016-mesh" name="Cube.016">
+      <mesh>
+        <source id="Cube_016-mesh-positions">
+          <float_array id="Cube_016-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_016-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_016-mesh-normals">
+          <float_array id="Cube_016-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_016-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_016-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_016-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_001-material" count="12">
+          <input semantic="VERTEX" source="#Cube_016-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_016-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 2 0 0 0 3 1 6 1 2 1 7 2 4 2 6 2 5 3 0 3 4 3 6 4 0 4 2 4 3 5 5 5 7 5 1 0 3 0 2 0 3 1 7 1 6 1 7 2 5 2 4 2 5 3 1 3 0 3 6 4 4 4 0 4 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_015-mesh" name="Cube.015">
+      <mesh>
+        <source id="Cube_015-mesh-positions">
+          <float_array id="Cube_015-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_015-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_015-mesh-normals">
+          <float_array id="Cube_015-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_015-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_015-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_015-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_001-material" count="12">
+          <input semantic="VERTEX" source="#Cube_015-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_015-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 2 0 0 0 3 1 6 1 2 1 7 2 4 2 6 2 5 3 0 3 4 3 6 4 0 4 2 4 3 5 5 5 7 5 1 0 3 0 2 0 3 1 7 1 6 1 7 2 5 2 4 2 5 3 1 3 0 3 6 4 4 4 0 4 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_014-mesh" name="Cube.014">
+      <mesh>
+        <source id="Cube_014-mesh-positions">
+          <float_array id="Cube_014-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_014-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_014-mesh-normals">
+          <float_array id="Cube_014-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_014-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_014-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_014-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_001-material" count="12">
+          <input semantic="VERTEX" source="#Cube_014-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_014-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 2 0 0 0 3 1 6 1 2 1 7 2 4 2 6 2 5 3 0 3 4 3 6 4 0 4 2 4 3 5 5 5 7 5 1 0 3 0 2 0 3 1 7 1 6 1 7 2 5 2 4 2 5 3 1 3 0 3 6 4 4 4 0 4 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_013-mesh" name="Cube.013">
+      <mesh>
+        <source id="Cube_013-mesh-positions">
+          <float_array id="Cube_013-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_013-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_013-mesh-normals">
+          <float_array id="Cube_013-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_013-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_013-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_013-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_001-material" count="12">
+          <input semantic="VERTEX" source="#Cube_013-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_013-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 2 0 0 0 3 1 6 1 2 1 7 2 4 2 6 2 5 3 0 3 4 3 6 4 0 4 2 4 3 5 5 5 7 5 1 0 3 0 2 0 3 1 7 1 6 1 7 2 5 2 4 2 5 3 1 3 0 3 6 4 4 4 0 4 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_012-mesh" name="Cube.012">
+      <mesh>
+        <source id="Cube_012-mesh-positions">
+          <float_array id="Cube_012-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_012-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_012-mesh-normals">
+          <float_array id="Cube_012-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_012-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_012-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_012-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_001-material" count="12">
+          <input semantic="VERTEX" source="#Cube_012-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_012-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 2 0 0 0 3 1 6 1 2 1 7 2 4 2 6 2 5 3 0 3 4 3 6 4 0 4 2 4 3 5 5 5 7 5 1 0 3 0 2 0 3 1 7 1 6 1 7 2 5 2 4 2 5 3 1 3 0 3 6 4 4 4 0 4 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_009-mesh" name="Cube.009">
+      <mesh>
+        <source id="Cube_009-mesh-positions">
+          <float_array id="Cube_009-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_009-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_009-mesh-normals">
+          <float_array id="Cube_009-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_009-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_009-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_009-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_001-material" count="12">
+          <input semantic="VERTEX" source="#Cube_009-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_009-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 2 0 0 0 3 1 6 1 2 1 7 2 4 2 6 2 5 3 0 3 4 3 6 4 0 4 2 4 3 5 5 5 7 5 1 0 3 0 2 0 3 1 7 1 6 1 7 2 5 2 4 2 5 3 1 3 0 3 6 4 4 4 0 4 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_008-mesh" name="Cube.008">
+      <mesh>
+        <source id="Cube_008-mesh-positions">
+          <float_array id="Cube_008-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_008-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_008-mesh-normals">
+          <float_array id="Cube_008-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_008-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_008-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_008-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_001-material" count="12">
+          <input semantic="VERTEX" source="#Cube_008-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_008-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 2 0 0 0 3 1 6 1 2 1 7 2 4 2 6 2 5 3 0 3 4 3 6 4 0 4 2 4 3 5 5 5 7 5 1 0 3 0 2 0 3 1 7 1 6 1 7 2 5 2 4 2 5 3 1 3 0 3 6 4 4 4 0 4 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
     <geometry id="my_lines-mesh" name="my_lines">
       <mesh>
         <source id="my_lines-mesh-positions">
-          <float_array id="my_lines-mesh-positions-array" count="147">1.889879 13.25208 0 2.671348 11.49377 0 3.5505 9.735468 0 4.429653 8.123688 0 5.553015 6.804959 0 5.943749 6.02349 0 6.871744 4.704761 0 7.799738 2.897614 0 8.58121 1.090467 0 8.825416 0.4555239 0 9.118469 -0.7166796 0 9.167309 -2.035408 0 9.167309 -3.549504 0 8.923102 -5.112442 0 8.288156 -6.626538 0 7.262478 -7.994109 0 6.334484 -9.166316 0 5.064597 -10.14315 0 3.794709 -10.58273 0 2.671348 -10.97346 0 1.352619 -11.41304 0 -0.2103188 -11.46188 0 -1.822098 -11.07114 0 -2.994302 -10.72925 0 -3.922296 -10.09431 0 -5.631759 -9.263998 0 -6.46207 -8.336005 0 -7.243539 -7.310323 0 -7.82964 -5.942753 0 -8.122694 -5.063601 0 -8.171534 -3.402979 0 -8.122694 -2.865719 0 -7.927324 -1.54699 0 -7.390064 -0.3747869 0 -6.99933 1.530044 0 -6.803963 2.262671 0 -6.657437 2.458038 0 -6.510912 2.653405 0 -5.827126 4.167501 0 -5.338708 5.144337 0 -4.85029 5.974648 0 -4.117663 6.756117 0 -3.385036 7.586428 0 -2.4082 8.416741 0 -1.431364 9.00284 0 -0.4545278 9.881995 0 0.1804156 10.46809 0 1.254935 11.68914 0 1.938721 13.20324 0</float_array>
+          <float_array id="my_lines-mesh-positions-array" count="147">1.889879 13.25208 0 2.671348 11.49377 0 3.5505 9.735468 0 4.429653 8.123688 0 5.553015 6.804959 0 5.943749 6.02349 0 6.871744 4.704761 0 7.799738 2.897614 0 8.581211 1.090467 0 8.825416 0.4555239 0 9.11847 -0.7166796 0 9.167309 -2.035408 0 9.167309 -3.549504 0 8.923103 -5.112442 0 8.288156 -6.626538 0 7.262478 -7.994109 0 6.334484 -9.166316 0 5.064597 -10.14315 0 3.794709 -10.58273 0 2.671348 -10.97346 0 1.352619 -11.41304 0 -0.2103188 -11.46188 0 -1.822098 -11.07114 0 -2.994302 -10.72925 0 -3.922296 -10.09431 0 -5.631759 -9.263998 0 -6.46207 -8.336006 0 -7.243539 -7.310323 0 -7.82964 -5.942753 0 -8.122694 -5.063601 0 -8.171534 -3.402979 0 -8.122694 -2.865719 0 -7.927324 -1.54699 0 -7.390064 -0.3747869 0 -6.99933 1.530044 0 -6.803963 2.262671 0 -6.657437 2.458038 0 -6.510912 2.653405 0 -5.827126 4.167501 0 -5.338708 5.144337 0 -4.85029 5.974648 0 -4.117663 6.756117 0 -3.385036 7.586428 0 -2.4082 8.416742 0 -1.431364 9.00284 0 -0.4545278 9.881996 0 0.1804156 10.46809 0 1.254935 11.68914 0 1.938721 13.20324 0</float_array>
           <technique_common>
             <accessor source="#my_lines-mesh-positions-array" count="49" stride="3">
               <param name="X" type="float"/>
@@ -72,7 +1293,7 @@
         </vertices>
         <lines count="49">
           <input semantic="VERTEX" source="#my_lines-mesh-vertices" offset="0"/>
-          <p>1 0 2 1 3 2 4 3 5 4 6 5 7 6 8 7 9 8 10 9 11 10 12 11 13 12 14 13 15 14 16 15 17 16 18 17 19 18 20 19 21 20 22 21 23 22 24 23 25 24 26 25 27 26 28 27 29 28 30 29 31 30 32 31 33 32 34 33 35 34 36 35 37 36 38 37 39 38 40 39 41 40 42 41 43 42 44 43 45 44 46 45 47 46 48 47 0 48</p>
+          <p>0 1 1 2 2 3 3 4 4 5 5 6 6 7 7 8 8 9 9 10 10 11 11 12 12 13 13 14 14 15 15 16 16 17 17 18 18 19 19 20 20 21 21 22 22 23 23 24 24 25 25 26 26 27 27 28 28 29 29 30 30 31 31 32 32 33 33 34 34 35 35 36 36 37 37 38 38 39 39 40 40 41 41 42 42 43 43 44 44 45 45 46 46 47 47 48 48 0</p>
         </lines>
       </mesh>
     </geometry>
@@ -80,6 +1301,376 @@
   <library_controllers/>
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
+      <node id="Cube_038" name="Cube_038" type="NODE">
+        <matrix sid="transform">-0.1986853 0 0 -8.671897 0 -0.1986853 0 -3.969351 0 0 -0.1986853 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_046-mesh" name="Cube_038">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_037" name="Cube_037" type="NODE">
+        <matrix sid="transform">-0.1986853 0 0 -3.794484 0 -0.1986853 0 -11.46024 0 0 -0.1986853 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_045-mesh" name="Cube_037">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_036" name="Cube_036" type="NODE">
+        <matrix sid="transform">-0.1986853 0 0 2.589468 0 -0.1986853 0 -11.78569 0 0 -0.1986853 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_044-mesh" name="Cube_036">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_035" name="Cube_035" type="NODE">
+        <matrix sid="transform">-0.1986853 0 0 4.324781 0 -0.1986853 0 -11.2188 0 0 -0.1986853 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_043-mesh" name="Cube_035">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_034" name="Cube_034" type="NODE">
+        <matrix sid="transform">-0.1986853 0 0 -5.208826 0 -0.1986853 0 -10.59245 0 0 -0.1986853 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_042-mesh" name="Cube_034">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_033" name="Cube_033" type="NODE">
+        <matrix sid="transform">-0.1986853 0 0 -6.888449 0 -0.1986853 0 -9.323058 0 0 -0.1986853 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_041-mesh" name="Cube_033">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_032" name="Cube_032" type="NODE">
+        <matrix sid="transform">-0.1986853 0 0 -8.030121 0 -0.1986853 0 -7.609861 0 0 -0.1986853 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_040-mesh" name="Cube_032">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_031" name="Cube_031" type="NODE">
+        <matrix sid="transform">-0.1986853 0 0 -8.61495 0 -0.1986853 0 -5.972316 0 0 -0.1986853 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_039-mesh" name="Cube_031">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_030" name="Cube_030" type="NODE">
+        <matrix sid="transform">-0.1986853 0 0 -2.321003 0 -0.1986853 0 -12.00465 0 0 -0.1986853 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_038-mesh" name="Cube_030">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_029" name="Cube_029" type="NODE">
+        <matrix sid="transform">-0.1986853 0 0 0 0 -0.1986853 0 -12.52819 0 0 -0.1986853 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_037-mesh" name="Cube_029">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_028" name="Cube_028" type="NODE">
+        <matrix sid="transform">-0.1986853 0 0 2.563043 0 -0.1986853 0 9.989019 0 0 -0.1986853 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_036-mesh" name="Cube_028">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_027" name="Cube_027" type="NODE">
+        <matrix sid="transform">-0.1986853 0 0 0 0 -0.1986853 0 9.922997 0 0 -0.1986853 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_035-mesh" name="Cube_027">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_026" name="Cube_026" type="NODE">
+        <matrix sid="transform">-0.1986853 0 0 -2.133308 0 -0.1986853 0 8.066916 0 0 -0.1986853 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_034-mesh" name="Cube_026">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_025" name="Cube_025" type="NODE">
+        <matrix sid="transform">-0.1986853 0 0 -4.704127 0 -0.1986853 0 5.945154 0 0 -0.1986853 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_033-mesh" name="Cube_025">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_024" name="Cube_024" type="NODE">
+        <matrix sid="transform">-0.1986853 0 0 -6.084929 0 -0.1986853 0 3.670144 0 0 -0.1986853 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_032-mesh" name="Cube_024">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_023" name="Cube_023" type="NODE">
+        <matrix sid="transform">-0.1986853 0 0 -7.077932 0 -0.1986853 0 1.715923 0 0 -0.1986853 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_031-mesh" name="Cube_023">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_022" name="Cube_022" type="NODE">
+        <matrix sid="transform">-0.1986853 0 0 -5.490832 0 -0.1986853 0 4.869229 0 0 -0.1986853 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_030-mesh" name="Cube_022">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_021" name="Cube_021" type="NODE">
+        <matrix sid="transform">-0.1986853 0 0 -3.603218 0 -0.1986853 0 7.058955 0 0 -0.1986853 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_029-mesh" name="Cube_021">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_020" name="Cube_020" type="NODE">
+        <matrix sid="transform">-0.1986853 0 0 -1.122123 0 -0.1986853 0 9.045973 0 0 -0.1986853 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_028-mesh" name="Cube_020">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_019" name="Cube_019" type="NODE">
+        <matrix sid="transform">-0.1986853 0 0 0.8905035 0 -0.1986853 0 11.1731 0 0 -0.1986853 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_027-mesh" name="Cube_019">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_018" name="Cube_018" type="NODE">
+        <matrix sid="transform">-0.1986853 0 0 1.416858 0 -0.1986853 0 12.26482 0 0 -0.1986853 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_026-mesh" name="Cube_018">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_017" name="Cube_017" type="NODE">
+        <matrix sid="transform">-0.1986853 0 0 3.165942 0 -0.1986853 0 8.948563 0 0 -0.1986853 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_025-mesh" name="Cube_017">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_016" name="Cube_016" type="NODE">
+        <matrix sid="transform">-0.1986853 0 0 3.474648 0 -0.1986853 0 8.071529 0 0 -0.1986853 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_024-mesh" name="Cube_016">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_015" name="Cube_015" type="NODE">
+        <matrix sid="transform">-0.1986853 0 0 4.07412 0 -0.1986853 0 7.075145 0 0 -0.1986853 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_023-mesh" name="Cube_015">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_014" name="Cube_014" type="NODE">
+        <matrix sid="transform">-0.1986853 0 0 5.055957 0 -0.1986853 0 6.018375 0 0 -0.1986853 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_022-mesh" name="Cube_014">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_013" name="Cube_013" type="NODE">
+        <matrix sid="transform">-0.1986853 0 0 5.795962 0 -0.1986853 0 4.592256 0 0 -0.1986853 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_021-mesh" name="Cube_013">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_012" name="Cube_012" type="NODE">
+        <matrix sid="transform">-0.1986853 0 0 7.533378 0 -0.1986853 0 1.552004 0 0 -0.1986853 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_020-mesh" name="Cube_012">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_011" name="Cube_011" type="NODE">
+        <matrix sid="transform">-0.1986853 0 0 6.769392 0 -0.1986853 0 3.049182 0 0 -0.1986853 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_019-mesh" name="Cube_011">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_010" name="Cube_010" type="NODE">
+        <matrix sid="transform">-0.1986853 0 0 8.193124 0 -0.1986853 0 0 0 0 -0.1986853 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_018-mesh" name="Cube_010">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_009" name="Cube_009" type="NODE">
+        <matrix sid="transform">-0.1986853 0 0 8.605649 0 -0.1986853 0 -1.726907 0 0 -0.1986853 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_017-mesh" name="Cube_009">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_008" name="Cube_008" type="NODE">
+        <matrix sid="transform">-0.1986853 0 0 1.941122 0 -0.1986853 0 11.22316 0 0 -0.1986853 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_016-mesh" name="Cube_008">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_007" name="Cube_007" type="NODE">
+        <matrix sid="transform">-0.1986853 0 0 8.72649 0 -0.1986853 0 -3.668468 0 0 -0.1986853 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_015-mesh" name="Cube_007">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_006" name="Cube_006" type="NODE">
+        <matrix sid="transform">-0.1986853 0 0 8.322112 0 -0.1986853 0 -6.13169 0 0 -0.1986853 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_014-mesh" name="Cube_006">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_005" name="Cube_005" type="NODE">
+        <matrix sid="transform">-0.1986853 0 0 7.381241 0 -0.1986853 0 -8.122927 0 0 -0.1986853 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_013-mesh" name="Cube_005">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_004" name="Cube_004" type="NODE">
+        <matrix sid="transform">-0.1986853 0 0 6.298617 0 -0.1986853 0 -9.746462 0 0 -0.1986853 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_012-mesh" name="Cube_004">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_001" name="Cube_001" type="NODE">
+        <matrix sid="transform">-0.1986853 0 0 -8.187352 0 -0.1986853 0 -1.696919 0 0 -0.1986853 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_009-mesh" name="Cube_001">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube" name="Cube" type="NODE">
+        <matrix sid="transform">-0.1986853 0 0 -7.738463 0 -0.1986853 0 0 0 0 -0.1986853 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_008-mesh" name="Cube">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
       <node id="my_lines" name="my_lines" type="NODE">
         <matrix sid="transform">1.001153 0 0 -0.4978874 0 1.002832 0 -0.8951001 0 0 1.06 0 0 0 0 1</matrix>
         <instance_geometry url="#my_lines-mesh" name="my_lines">
