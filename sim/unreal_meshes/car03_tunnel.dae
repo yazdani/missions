@@ -5,14 +5,14 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.78.0 commit date:2017-02-24, commit time:14:33, hash:e92f2352830</authoring_tool>
     </contributor>
-    <created>2017-06-13T14:24:31</created>
-    <modified>2017-06-13T14:24:31</modified>
+    <created>2017-06-13T14:43:39</created>
+    <modified>2017-06-13T14:43:39</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
   <library_images/>
   <library_effects>
-    <effect id="Material_001_001_001_001_011_016_010_010-effect">
+    <effect id="Material_001_001_001_001_011_016_010_006-effect">
       <profile_COMMON>
         <technique sid="common">
           <phong>
@@ -23,7 +23,7 @@
               <color sid="ambient">0 0 0 1</color>
             </ambient>
             <diffuse>
-              <color sid="diffuse">0.64 0.009872948 0 1</color>
+              <color sid="diffuse">0.276715 0.64 0 1</color>
             </diffuse>
             <specular>
               <color sid="specular">0 0 0 1</color>
@@ -64,7 +64,7 @@
         </technique>
       </profile_COMMON>
     </effect>
-    <effect id="Material_001_001_001_001_011_016_010_008-effect">
+    <effect id="Material_001_001_001_001_011_016_010_004-effect">
       <profile_COMMON>
         <technique sid="common">
           <phong>
@@ -75,7 +75,7 @@
               <color sid="ambient">0 0 0 1</color>
             </ambient>
             <diffuse>
-              <color sid="diffuse">0.64 0.009872948 0 1</color>
+              <color sid="diffuse">0.005852213 0 0.64 1</color>
             </diffuse>
             <specular>
               <color sid="specular">0 0 0 1</color>
@@ -116,59 +116,7 @@
         </technique>
       </profile_COMMON>
     </effect>
-    <effect id="Material_001_001_001_001_011_016_010_006-effect">
-      <profile_COMMON>
-        <technique sid="common">
-          <phong>
-            <emission>
-              <color sid="emission">0 0 0 1</color>
-            </emission>
-            <ambient>
-              <color sid="ambient">0 0 0 1</color>
-            </ambient>
-            <diffuse>
-              <color sid="diffuse">0.64 0.009872948 0 1</color>
-            </diffuse>
-            <specular>
-              <color sid="specular">0 0 0 1</color>
-            </specular>
-            <shininess>
-              <float sid="shininess">50</float>
-            </shininess>
-            <index_of_refraction>
-              <float sid="index_of_refraction">1</float>
-            </index_of_refraction>
-          </phong>
-        </technique>
-      </profile_COMMON>
-    </effect>
     <effect id="Material_001_001_001_001_011_016_010_005-effect">
-      <profile_COMMON>
-        <technique sid="common">
-          <phong>
-            <emission>
-              <color sid="emission">0 0 0 1</color>
-            </emission>
-            <ambient>
-              <color sid="ambient">0 0 0 1</color>
-            </ambient>
-            <diffuse>
-              <color sid="diffuse">0.64 0.009872948 0 1</color>
-            </diffuse>
-            <specular>
-              <color sid="specular">0 0 0 1</color>
-            </specular>
-            <shininess>
-              <float sid="shininess">50</float>
-            </shininess>
-            <index_of_refraction>
-              <float sid="index_of_refraction">1</float>
-            </index_of_refraction>
-          </phong>
-        </technique>
-      </profile_COMMON>
-    </effect>
-    <effect id="Material_001_001_001_001_011_016_010_004-effect">
       <profile_COMMON>
         <technique sid="common">
           <phong>
@@ -976,26 +924,20 @@
     </effect>
   </library_effects>
   <library_materials>
-    <material id="Material_001_001_001_001_011_016_010_010-material" name="Material_001_001_001_001_011_016_010_010">
-      <instance_effect url="#Material_001_001_001_001_011_016_010_010-effect"/>
+    <material id="Material_001_001_001_001_011_016_010_006-material" name="Material_001_001_001_001_011_016_010_006">
+      <instance_effect url="#Material_001_001_001_001_011_016_010_006-effect"/>
     </material>
     <material id="Material_001_001_001_001_011_016_010_009-material" name="Material_001_001_001_001_011_016_010_009">
       <instance_effect url="#Material_001_001_001_001_011_016_010_009-effect"/>
     </material>
-    <material id="Material_001_001_001_001_011_016_010_008-material" name="Material_001_001_001_001_011_016_010_008">
-      <instance_effect url="#Material_001_001_001_001_011_016_010_008-effect"/>
+    <material id="Material_001_001_001_001_011_016_010_004-material" name="Material_001_001_001_001_011_016_010_004">
+      <instance_effect url="#Material_001_001_001_001_011_016_010_004-effect"/>
     </material>
     <material id="Material_001_001_001_001_011_016_010_007-material" name="Material_001_001_001_001_011_016_010_007">
       <instance_effect url="#Material_001_001_001_001_011_016_010_007-effect"/>
     </material>
-    <material id="Material_001_001_001_001_011_016_010_006-material" name="Material_001_001_001_001_011_016_010_006">
-      <instance_effect url="#Material_001_001_001_001_011_016_010_006-effect"/>
-    </material>
     <material id="Material_001_001_001_001_011_016_010_005-material" name="Material_001_001_001_001_011_016_010_005">
       <instance_effect url="#Material_001_001_001_001_011_016_010_005-effect"/>
-    </material>
-    <material id="Material_001_001_001_001_011_016_010_004-material" name="Material_001_001_001_001_011_016_010_004">
-      <instance_effect url="#Material_001_001_001_001_011_016_010_004-effect"/>
     </material>
     <material id="Material_001_001_001_001_011_016_010_003-material" name="Material_001_001_001_001_011_016_010_003">
       <instance_effect url="#Material_001_001_001_001_011_016_010_003-effect"/>
@@ -1114,7 +1056,7 @@
         <vertices id="Cube_032-mesh-vertices">
           <input semantic="POSITION" source="#Cube_032-mesh-positions"/>
         </vertices>
-        <polylist material="Material_001_001_001_001_011_016_010_010-material" count="12">
+        <polylist material="Material_001_001_001_001_011_016_010_006-material" count="12">
           <input semantic="VERTEX" source="#Cube_032-mesh-vertices" offset="0"/>
           <input semantic="NORMAL" source="#Cube_032-mesh-normals" offset="1"/>
           <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
@@ -1180,7 +1122,7 @@
         <vertices id="Cube_030-mesh-vertices">
           <input semantic="POSITION" source="#Cube_030-mesh-positions"/>
         </vertices>
-        <polylist material="Material_001_001_001_001_011_016_010_008-material" count="12">
+        <polylist material="Material_001_001_001_001_011_016_010_004-material" count="12">
           <input semantic="VERTEX" source="#Cube_030-mesh-vertices" offset="0"/>
           <input semantic="NORMAL" source="#Cube_030-mesh-normals" offset="1"/>
           <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
@@ -2392,17 +2334,17 @@
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
       <node id="Cube_014_001_003_002_010_016_010_010" name="Cube_014_001_003_002_010_016_010_010" type="NODE">
-        <matrix sid="transform">0.4468428 0.1630287 0.02404039 -119.847 0.1620172 -0.4473155 0.02200552 308.7242 0.03011199 -0.01246807 -0.4751446 13.58853 0 0 0 1</matrix>
+        <matrix sid="transform">0.4468428 0.1630287 0.02404039 -182.4502 0.1620172 -0.4473155 0.02200552 279.8643 0.03011199 -0.01246807 -0.4751446 18.96022 0 0 0 1</matrix>
         <instance_geometry url="#Cube_032-mesh" name="Cube_014_001_003_002_010_016_010_010">
           <bind_material>
             <technique_common>
-              <instance_material symbol="Material_001_001_001_001_011_016_010_010-material" target="#Material_001_001_001_001_011_016_010_010-material"/>
+              <instance_material symbol="Material_001_001_001_001_011_016_010_006-material" target="#Material_001_001_001_001_011_016_010_006-material"/>
             </technique_common>
           </bind_material>
         </instance_geometry>
       </node>
       <node id="Cube_014_001_003_002_010_016_010_009" name="Cube_014_001_003_002_010_016_010_009" type="NODE">
-        <matrix sid="transform">0.4468428 0.1630287 0.02404039 -120.624 0.1620172 -0.4473155 0.02200552 296.7563 0.03011199 -0.01246807 -0.4751446 13.58853 0 0 0 1</matrix>
+        <matrix sid="transform">0.4468428 0.1630287 0.02404039 -174.6814 0.1620172 -0.4473155 0.02200552 273.6909 0.03011199 -0.01246807 -0.4751446 17.65033 0 0 0 1</matrix>
         <instance_geometry url="#Cube_031-mesh" name="Cube_014_001_003_002_010_016_010_009">
           <bind_material>
             <technique_common>
@@ -2412,17 +2354,17 @@
         </instance_geometry>
       </node>
       <node id="Cube_014_001_003_002_010_016_010_008" name="Cube_014_001_003_002_010_016_010_008" type="NODE">
-        <matrix sid="transform">0.4468428 0.1630287 0.02404039 -121.2725 0.1620172 -0.4473155 0.02200552 285.5238 0.03011199 -0.01246807 -0.4751446 13.58853 0 0 0 1</matrix>
+        <matrix sid="transform">0.4468428 0.1630287 0.02404039 -166.056 0.1620172 -0.4473155 0.02200552 263.3894 0.03011199 -0.01246807 -0.4751446 17.08121 0 0 0 1</matrix>
         <instance_geometry url="#Cube_030-mesh" name="Cube_014_001_003_002_010_016_010_008">
           <bind_material>
             <technique_common>
-              <instance_material symbol="Material_001_001_001_001_011_016_010_008-material" target="#Material_001_001_001_001_011_016_010_008-material"/>
+              <instance_material symbol="Material_001_001_001_001_011_016_010_004-material" target="#Material_001_001_001_001_011_016_010_004-material"/>
             </technique_common>
           </bind_material>
         </instance_geometry>
       </node>
       <node id="Cube_014_001_003_002_010_016_010_007" name="Cube_014_001_003_002_010_016_010_007" type="NODE">
-        <matrix sid="transform">0.4468428 0.1630287 0.02404039 -121.2203 0.1620172 -0.4473155 0.02200552 273.1347 0.03011199 -0.01246807 -0.4751446 13.58853 0 0 0 1</matrix>
+        <matrix sid="transform">0.4468428 0.1630287 0.02404039 -154.275 0.1620172 -0.4473155 0.02200552 252.0715 0.03011199 -0.01246807 -0.4751446 17.27838 0 0 0 1</matrix>
         <instance_geometry url="#Cube_029-mesh" name="Cube_014_001_003_002_010_016_010_007">
           <bind_material>
             <technique_common>
@@ -2432,7 +2374,7 @@
         </instance_geometry>
       </node>
       <node id="Cube_014_001_003_002_010_016_010_006" name="Cube_014_001_003_002_010_016_010_006" type="NODE">
-        <matrix sid="transform">0.4468428 0.1630287 0.02404039 -122.7303 0.1620172 -0.4473155 0.02200552 261.1643 0.03011199 -0.01246807 -0.4751446 13.58853 0 0 0 1</matrix>
+        <matrix sid="transform">0.4468428 0.1630287 0.02404039 -141.9357 0.1620172 -0.4473155 0.02200552 244.7336 0.03011199 -0.01246807 -0.4751446 18.15192 0 0 0 1</matrix>
         <instance_geometry url="#Cube_028-mesh" name="Cube_014_001_003_002_010_016_010_006">
           <bind_material>
             <technique_common>
@@ -2442,7 +2384,7 @@
         </instance_geometry>
       </node>
       <node id="Cube_014_001_003_002_010_016_010_005" name="Cube_014_001_003_002_010_016_010_005" type="NODE">
-        <matrix sid="transform">0.4468428 0.1630287 0.02404039 -123.2296 0.1620172 -0.4473155 0.02200552 249.2476 0.03011199 -0.01246807 -0.4751446 13.58853 0 0 0 1</matrix>
+        <matrix sid="transform">0.4468428 0.1630287 0.02404039 -134.2296 0.1620172 -0.4473155 0.02200552 236.8039 0.03011199 -0.01246807 -0.4751446 17.49286 0 0 0 1</matrix>
         <instance_geometry url="#Cube_027-mesh" name="Cube_014_001_003_002_010_016_010_005">
           <bind_material>
             <technique_common>
@@ -2452,7 +2394,7 @@
         </instance_geometry>
       </node>
       <node id="Cube_014_001_003_002_010_016_010_004" name="Cube_014_001_003_002_010_016_010_004" type="NODE">
-        <matrix sid="transform">0.4468428 0.1630287 0.02404039 -118.9378 0.1620172 -0.4473155 0.02200552 224.1119 0.03011199 -0.01246807 -0.4751446 13.58853 0 0 0 1</matrix>
+        <matrix sid="transform">0.4468428 0.1630287 0.02404039 -117.2063 0.1620172 -0.4473155 0.02200552 222.4667 0.03011199 -0.01246807 -0.4751446 15.76055 0 0 0 1</matrix>
         <instance_geometry url="#Cube_026-mesh" name="Cube_014_001_003_002_010_016_010_004">
           <bind_material>
             <technique_common>
@@ -2462,7 +2404,7 @@
         </instance_geometry>
       </node>
       <node id="Cube_014_001_003_002_010_016_010_003" name="Cube_014_001_003_002_010_016_010_003" type="NODE">
-        <matrix sid="transform">0.4468428 0.1630287 0.02404039 -121.5093 0.1620172 -0.4473155 0.02200552 236.1616 0.03011199 -0.01246807 -0.4751446 13.58853 0 0 0 1</matrix>
+        <matrix sid="transform">0.4468428 0.1630287 0.02404039 -126.1604 0.1620172 -0.4473155 0.02200552 231.321 0.03011199 -0.01246807 -0.4751446 17.05947 0 0 0 1</matrix>
         <instance_geometry url="#Cube_025-mesh" name="Cube_014_001_003_002_010_016_010_003">
           <bind_material>
             <technique_common>
@@ -2472,7 +2414,7 @@
         </instance_geometry>
       </node>
       <node id="Cube_014_001_003_002_010_016_010_002" name="Cube_014_001_003_002_010_016_010_002" type="NODE">
-        <matrix sid="transform">0.4468428 0.1630287 0.02404039 -114.53 0.1620172 -0.4473155 0.02200552 213.9932 0.03011199 -0.01246807 -0.4751446 13.58853 0 0 0 1</matrix>
+        <matrix sid="transform">0.4468428 0.1630287 0.02404039 -108.6058 0.1620172 -0.4473155 0.02200552 217.43 0.03011199 -0.01246807 -0.4751446 15.61036 0 0 0 1</matrix>
         <instance_geometry url="#Cube_024-mesh" name="Cube_014_001_003_002_010_016_010_002">
           <bind_material>
             <technique_common>
@@ -2482,7 +2424,7 @@
         </instance_geometry>
       </node>
       <node id="Cube_014_001_003_002_010_016_010_001" name="Cube_014_001_003_002_010_016_010_001" type="NODE">
-        <matrix sid="transform">0.4468428 0.1630287 0.02404039 -109.0252 0.1620172 -0.4473155 0.02200552 205.2684 0.03011199 -0.01246807 -0.4751446 13.58853 0 0 0 1</matrix>
+        <matrix sid="transform">0.4468428 0.1630287 0.02404039 -107.3096 0.1620172 -0.4473155 0.02200552 203.5094 0.03011199 -0.01246807 -0.4751446 15.70277 0 0 0 1</matrix>
         <instance_geometry url="#Cube_023-mesh" name="Cube_014_001_003_002_010_016_010_001">
           <bind_material>
             <technique_common>
@@ -2492,7 +2434,7 @@
         </instance_geometry>
       </node>
       <node id="Cube_014_001_003_002_010_016_010" name="Cube_014_001_003_002_010_016_010" type="NODE">
-        <matrix sid="transform">0.4468428 0.1630287 0.02404039 -101.6639 0.1620172 -0.4473155 0.02200552 197.5403 0.03011199 -0.01246807 -0.4751446 13.58853 0 0 0 1</matrix>
+        <matrix sid="transform">0.4468428 0.1630287 0.02404039 -104.4985 0.1620172 -0.4473155 0.02200552 192.9259 0.03011199 -0.01246807 -0.4751446 15.65097 0 0 0 1</matrix>
         <instance_geometry url="#Cube_022-mesh" name="Cube_014_001_003_002_010_016_010">
           <bind_material>
             <technique_common>
@@ -2502,7 +2444,7 @@
         </instance_geometry>
       </node>
       <node id="Cube_014_001_003_002_010_016_009" name="Cube_014_001_003_002_010_016_009" type="NODE">
-        <matrix sid="transform">0.4468428 0.1630287 0.02404039 -95.99234 0.1620172 -0.4473155 0.02200552 189.5149 0.03011199 -0.01246807 -0.4751446 12.64147 0 0 0 1</matrix>
+        <matrix sid="transform">0.4468428 0.1630287 0.02404039 -95.99234 0.1620172 -0.4473155 0.02200552 189.5149 0.03011199 -0.01246807 -0.4751446 14.7416 0 0 0 1</matrix>
         <instance_geometry url="#Cube_021-mesh" name="Cube_014_001_003_002_010_016_009">
           <bind_material>
             <technique_common>
@@ -2512,7 +2454,7 @@
         </instance_geometry>
       </node>
       <node id="Cube_014_001_003_002_010_016_008" name="Cube_014_001_003_002_010_016_008" type="NODE">
-        <matrix sid="transform">0.4468428 0.1630287 0.02404039 -88.67581 0.1620172 -0.4473155 0.02200552 184.2965 0.03011199 -0.01246807 -0.4751446 11.76065 0 0 0 1</matrix>
+        <matrix sid="transform">0.4468428 0.1630287 0.02404039 -88.67581 0.1620172 -0.4473155 0.02200552 184.2965 0.03011199 -0.01246807 -0.4751446 15.17343 0 0 0 1</matrix>
         <instance_geometry url="#Cube_020-mesh" name="Cube_014_001_003_002_010_016_008">
           <bind_material>
             <technique_common>
@@ -2522,7 +2464,7 @@
         </instance_geometry>
       </node>
       <node id="Cube_014_001_003_002_010_016_007" name="Cube_014_001_003_002_010_016_007" type="NODE">
-        <matrix sid="transform">0.4468428 0.1630287 0.02404039 -85.28864 0.1620172 -0.4473155 0.02200552 176.1624 0.03011199 -0.01246807 -0.4751446 13.0862 0 0 0 1</matrix>
+        <matrix sid="transform">0.4468428 0.1630287 0.02404039 -85.28864 0.1620172 -0.4473155 0.02200552 176.1624 0.03011199 -0.01246807 -0.4751446 15.49573 0 0 0 1</matrix>
         <instance_geometry url="#Cube_019-mesh" name="Cube_014_001_003_002_010_016_007">
           <bind_material>
             <technique_common>
@@ -2532,7 +2474,7 @@
         </instance_geometry>
       </node>
       <node id="Cube_014_001_003_002_010_016_006" name="Cube_014_001_003_002_010_016_006" type="NODE">
-        <matrix sid="transform">0.4468428 0.1630287 0.02404039 -81.17691 0.1620172 -0.4473155 0.02200552 169.2401 0.03011199 -0.01246807 -0.4751446 12.88396 0 0 0 1</matrix>
+        <matrix sid="transform">0.4468428 0.1630287 0.02404039 -81.17691 0.1620172 -0.4473155 0.02200552 169.2401 0.03011199 -0.01246807 -0.4751446 16.18826 0 0 0 1</matrix>
         <instance_geometry url="#Cube_018-mesh" name="Cube_014_001_003_002_010_016_006">
           <bind_material>
             <technique_common>
@@ -2542,7 +2484,7 @@
         </instance_geometry>
       </node>
       <node id="Cube_014_001_003_002_010_016_005" name="Cube_014_001_003_002_010_016_005" type="NODE">
-        <matrix sid="transform">0.4468428 0.1630287 0.02404039 -77.31854 0.1620172 -0.4473155 0.02200552 161.3725 0.03011199 -0.01246807 -0.4751446 12.34222 0 0 0 1</matrix>
+        <matrix sid="transform">0.4468428 0.1630287 0.02404039 -77.31854 0.1620172 -0.4473155 0.02200552 161.3725 0.03011199 -0.01246807 -0.4751446 15.99008 0 0 0 1</matrix>
         <instance_geometry url="#Cube_015-mesh" name="Cube_014_001_003_002_010_016_005">
           <bind_material>
             <technique_common>
@@ -2552,7 +2494,7 @@
         </instance_geometry>
       </node>
       <node id="Cube_014_001_003_002_010_016_004" name="Cube_014_001_003_002_010_016_004" type="NODE">
-        <matrix sid="transform">0.4468428 0.1630287 0.02404039 -74.00587 0.1620172 -0.4473155 0.02200552 153.8547 0.03011199 -0.01246807 -0.4751446 12.6271 0 0 0 1</matrix>
+        <matrix sid="transform">0.4468428 0.1630287 0.02404039 -74.00587 0.1620172 -0.4473155 0.02200552 153.8547 0.03011199 -0.01246807 -0.4751446 16.64116 0 0 0 1</matrix>
         <instance_geometry url="#Cube_013-mesh" name="Cube_014_001_003_002_010_016_004">
           <bind_material>
             <technique_common>
@@ -2562,7 +2504,7 @@
         </instance_geometry>
       </node>
       <node id="Cube_014_001_003_002_010_016_003" name="Cube_014_001_003_002_010_016_003" type="NODE">
-        <matrix sid="transform">0.4468428 0.1630287 0.02404039 -76.00404 0.1620172 -0.4473155 0.02200552 144.1361 0.03011199 -0.01246807 -0.4751446 13.26135 0 0 0 1</matrix>
+        <matrix sid="transform">0.4468428 0.1630287 0.02404039 -76.00404 0.1620172 -0.4473155 0.02200552 144.1361 0.03011199 -0.01246807 -0.4751446 16.82053 0 0 0 1</matrix>
         <instance_geometry url="#Cube_009-mesh" name="Cube_014_001_003_002_010_016_003">
           <bind_material>
             <technique_common>
@@ -2572,7 +2514,7 @@
         </instance_geometry>
       </node>
       <node id="Cube_014_001_003_002_010_016_002" name="Cube_014_001_003_002_010_016_002" type="NODE">
-        <matrix sid="transform">0.4468428 0.1630287 0.02404039 -76.94481 0.1620172 -0.4473155 0.02200552 136.1972 0.03011199 -0.01246807 -0.4751446 12.65701 0 0 0 1</matrix>
+        <matrix sid="transform">0.4468428 0.1630287 0.02404039 -76.94481 0.1620172 -0.4473155 0.02200552 136.1972 0.03011199 -0.01246807 -0.4751446 16.47029 0 0 0 1</matrix>
         <instance_geometry url="#Cube_005-mesh" name="Cube_014_001_003_002_010_016_002">
           <bind_material>
             <technique_common>
@@ -2582,7 +2524,7 @@
         </instance_geometry>
       </node>
       <node id="Cube_014_001_003_002_010_016_001" name="Cube_014_001_003_002_010_016_001" type="NODE">
-        <matrix sid="transform">0.4468428 0.1630287 0.02404039 -76.96362 0.1620172 -0.4473155 0.02200552 128.5048 0.03011199 -0.01246807 -0.4751446 10.67797 0 0 0 1</matrix>
+        <matrix sid="transform">0.4468428 0.1630287 0.02404039 -76.96362 0.1620172 -0.4473155 0.02200552 128.5048 0.03011199 -0.01246807 -0.4751446 13.61782 0 0 0 1</matrix>
         <instance_geometry url="#Cube_001-mesh" name="Cube_014_001_003_002_010_016_001">
           <bind_material>
             <technique_common>
