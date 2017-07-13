@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.78.0 commit date:2017-02-24, commit time:14:33, hash:e92f2352830</authoring_tool>
     </contributor>
-    <created>2017-06-06T10:10:20</created>
-    <modified>2017-06-06T10:10:20</modified>
+    <created>2017-07-13T17:00:27</created>
+    <modified>2017-07-13T17:00:27</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -26,7 +26,7 @@
               <color sid="diffuse">0.1838772 0.1969554 0.1077539 1</color>
             </diffuse>
             <specular>
-              <color sid="specular">0.015625 0.015625 0.015625 1</color>
+              <color sid="specular">0.0078125 0.0078125 0.0078125 1</color>
             </specular>
             <shininess>
               <float sid="shininess">50</float>
@@ -52,7 +52,7 @@
               <color sid="diffuse">0.2504956 0.2870719 0.2167927 1</color>
             </diffuse>
             <specular>
-              <color sid="specular">0.015625 0.015625 0.015625 1</color>
+              <color sid="specular">0.0078125 0.0078125 0.0078125 1</color>
             </specular>
             <shininess>
               <float sid="shininess">50</float>
@@ -78,7 +78,7 @@
               <color sid="diffuse">0.1838772 0.1969554 0.1077539 1</color>
             </diffuse>
             <specular>
-              <color sid="specular">0.015625 0.015625 0.015625 1</color>
+              <color sid="specular">0.0078125 0.0078125 0.0078125 1</color>
             </specular>
             <shininess>
               <float sid="shininess">50</float>
@@ -104,7 +104,7 @@
               <color sid="diffuse">0.2504956 0.2870719 0.2167927 1</color>
             </diffuse>
             <specular>
-              <color sid="specular">0.015625 0.015625 0.015625 1</color>
+              <color sid="specular">0.0078125 0.0078125 0.0078125 1</color>
             </specular>
             <shininess>
               <float sid="shininess">50</float>
@@ -215,7 +215,7 @@
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
       <node id="Cube_003_001" name="Cube_003_001" type="NODE">
-        <matrix sid="transform">-0.6332687 -4.32545e-4 -0.1060556 0.191713 0.007737153 -1.14989e-4 -8.684916 17.37512 0.003017757 -0.09047361 0.01154524 0.9502781 0 0 0 1</matrix>
+        <matrix sid="transform">-1.10181 -4.32555e-4 -0.1060716 0.2612524 0.0134617 -1.14991e-4 -8.686229 17.37512 0.005250529 -0.09047572 0.01154699 0.9502781 0 0 0 1</matrix>
         <instance_geometry url="#Cube_001-mesh" name="Cube_003_001">
           <bind_material>
             <technique_common>
@@ -226,7 +226,7 @@
         </instance_geometry>
       </node>
       <node id="Cube_003" name="Cube_003" type="NODE">
-        <matrix sid="transform">-0.6332687 -4.32545e-4 -0.1060556 0.003778614 0.007737153 -1.14989e-4 -8.684916 -0.008509535 0.003017757 -0.09047361 0.01154524 1.004525 0 0 0 1</matrix>
+        <matrix sid="transform">-1.101849 -4.32555e-4 -0.1060716 -0.06576076 0.01346217 -1.14991e-4 -8.686229 -0.008509636 0.005250713 -0.09047571 0.01154699 1.004525 0 0 0 1</matrix>
         <instance_geometry url="#Cube_004-mesh" name="Cube_003">
           <bind_material>
             <technique_common>
