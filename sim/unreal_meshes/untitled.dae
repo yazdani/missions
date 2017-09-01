@@ -5,13 +5,39 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.78.0 commit date:2017-02-24, commit time:14:33, hash:e92f2352830</authoring_tool>
     </contributor>
-    <created>2017-09-01T16:30:31</created>
-    <modified>2017-09-01T16:30:31</modified>
+    <created>2017-09-01T16:53:19</created>
+    <modified>2017-09-01T16:53:19</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
   <library_images/>
   <library_effects>
+    <effect id="Material_052-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.64 0.08378705 0.5078902 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
     <effect id="Material_051-effect">
       <profile_COMMON>
         <technique sid="common">
@@ -1340,6 +1366,9 @@
     </effect>
   </library_effects>
   <library_materials>
+    <material id="Material_052-material" name="Material_052">
+      <instance_effect url="#Material_052-effect"/>
+    </material>
     <material id="Material_051-material" name="Material_051">
       <instance_effect url="#Material_051-effect"/>
     </material>
@@ -1495,6 +1524,50 @@
     </material>
   </library_materials>
   <library_geometries>
+    <geometry id="Plane_051-mesh" name="Plane.051">
+      <mesh>
+        <source id="Plane_051-mesh-positions">
+          <float_array id="Plane_051-mesh-positions-array" count="12">-1 -1 0 1 -1 0 -1 1 0 1 1 0</float_array>
+          <technique_common>
+            <accessor source="#Plane_051-mesh-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_051-mesh-normals">
+          <float_array id="Plane_051-mesh-normals-array" count="3">0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Plane_051-mesh-normals-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_051-mesh-colors-Col" name="Col">
+          <float_array id="Plane_051-mesh-colors-Col-array" count="18">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Plane_051-mesh-colors-Col-array" count="6" stride="3">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Plane_051-mesh-vertices">
+          <input semantic="POSITION" source="#Plane_051-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_052-material" count="2">
+          <input semantic="VERTEX" source="#Plane_051-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Plane_051-mesh-normals" offset="1"/>
+          <input semantic="COLOR" source="#Plane_051-mesh-colors-Col" offset="2" set="0"/>
+          <vcount>3 3 </vcount>
+          <p>1 0 0 2 0 1 0 0 2 1 0 3 3 0 4 2 0 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
     <geometry id="Plane_050-mesh" name="Plane.050">
       <mesh>
         <source id="Plane_050-mesh-positions">
@@ -3787,6 +3860,16 @@
   <library_controllers/>
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
+      <node id="Plane_051" name="Plane_051" type="NODE">
+        <matrix sid="transform">148.84 0 0 -658.4825 0 148.42 0 561.8325 0 0 1 57.99776 0 0 0 1</matrix>
+        <instance_geometry url="#Plane_051-mesh" name="Plane_051">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_052-material" target="#Material_052-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
       <node id="Plane_050" name="Plane_050" type="NODE">
         <matrix sid="transform">148.84 0 0 111.0202 0 148.42 0 868.5797 0 0 1 80 0 0 0 1</matrix>
         <instance_geometry url="#Plane_050-mesh" name="Plane_050">
@@ -3908,7 +3991,7 @@
         </instance_geometry>
       </node>
       <node id="Plane_038" name="Plane_038" type="NODE">
-        <matrix sid="transform">148.84 0 0 -314.4929 0 148.42 0 336.1487 0 0 1 15 0 0 0 1</matrix>
+        <matrix sid="transform">148.84 0 0 -314.4929 0 148.42 0 561.8325 0 0 1 17 0 0 0 1</matrix>
         <instance_geometry url="#Plane_038-mesh" name="Plane_038">
           <bind_material>
             <technique_common>
@@ -3918,7 +4001,7 @@
         </instance_geometry>
       </node>
       <node id="Plane_037" name="Plane_037" type="NODE">
-        <matrix sid="transform">148.84 0 0 -830.2096 0 148.42 0 336.1487 0 0 1 7.673684 0 0 0 1</matrix>
+        <matrix sid="transform">148.84 0 0 -830.2096 0 148.42 0 336.1487 0 0 1 132 0 0 0 1</matrix>
         <instance_geometry url="#Plane_037-mesh" name="Plane_037">
           <bind_material>
             <technique_common>
@@ -3948,7 +4031,7 @@
         </instance_geometry>
       </node>
       <node id="Plane_034" name="Plane_034" type="NODE">
-        <matrix sid="transform">148.84 0 0 -889.4855 0 148.42 0 -101.005 0 0 1 60 0 0 0 1</matrix>
+        <matrix sid="transform">148.84 0 0 -791.8423 0 148.42 0 -177.6738 0 0 1 60 0 0 0 1</matrix>
         <instance_geometry url="#Plane_034-mesh" name="Plane_034">
           <bind_material>
             <technique_common>
